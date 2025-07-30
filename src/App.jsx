@@ -7,6 +7,8 @@ function App() {
 
   return (
     <div className="boxApp">
+      <div class="stars"></div>
+      <div class="horizon-glow"></div>
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
